@@ -1,0 +1,357 @@
+*{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background : #081b29;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+a{
+    color: rgb(255, 255, 255);
+  display: inline block;
+    padding: 10px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: auto;
+  margin-top: auto;
+}
+.links a:hover{
+    transition: 2s;
+    color: #01d5fb;
+    text-shadow: #08f4d4 1px 1px 6px;
+    text-decoration-line: underline;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: black 2px 5px 10px;
+/* font-family: cursive ; */
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+text-transform: uppercase;
+}
+h2{
+    color: #00f2ff;
+    text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+/* font-family: cursive ; */
+text-shadow: black 2px 5px 10px;
+font-size:38px ;
+text-transform: uppercase;
+}
+.destination{
+    text-transform: initial;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: cursive ; */
+
+}
+h3{
+    color: #00f2ff;
+    text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+/* font-family: cursive ; */
+font-size: 30px;
+text-transform: uppercase;
+padding-bottom: 1%;
+}
+.destinations{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    
+}
+.destinations img{
+    padding: 1px;
+    width: 300px;
+    height: 200PX;
+    box-shadow: black 10px 10px 10px;
+}
+.destination1{
+    padding-top: 10PX;
+    padding-left: 20px;
+    padding-right: 50PX;
+
+    border: 2px solid black;
+  border-color: #F8F6F4;
+  border-radius: 50px;
+}
+.destination2{
+    padding-top: 10PX;
+
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50PX;
+  border-color: #F8F6F4;
+  border-radius: 50px;
+
+
+}
+.destination3{
+    padding-top: 10PX;
+
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 50PX;
+
+  border-radius: 50px;
+  border-color: #F8F6F4;
+
+
+}
+.destinations p{
+/* font-family: cursive ; */
+text-transform: uppercase;
+
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    
+    color:#faf8f5 ;
+    
+}
+.information{
+    color: #fefefe;
+    word-spacing: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+/* font-family: cursive ; */
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+.destination1:hover{
+    transition: all 2s ease-in-out;
+    transform: scale(1.1);
+    background-color: #00f2ff;
+    box-shadow: whitesmoke 1px 1px 16px; 
+}
+.destination1:hover p{
+
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+    .destination1:hover h3{
+
+        transform: translateY(-20px);
+        color: rgb(5, 5, 5);
+    }
+    .destination1:hover img{
+        transition: 3s;
+        transform: scale(1.1);
+        border-radius: 70px;
+    
+    }
+    .destination1:hover img{
+        transform: translateY(-20px);
+    }
+
+    .destination1:hover{
+        width: 300px;
+        height: 600px;
+    }
+    
+    .destination2:hover h3{
+        transform: translateY(-20px);
+        color: rgb(5, 5, 5);
+    }
+   
+    .destination2:hover p{
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+          .destination2:hover{
+    transition: all 2s ease-in-out;
+
+            transform: scale(1.1);
+            background-color: #00f2ff;
+            box-shadow: whitesmoke 1px 1px 16px; 
+          }
+          .destination2:hover img{
+            transition: 3s;
+            transform: scale(1.1);
+            border-radius: 70px;
+        }
+        .destination2:hover img{
+            transform: translateY(-20px);
+        }
+    
+        .destination3:hover h3{
+            transform: translateY(-20px);
+            color: rgb(5, 5, 5);
+        }
+        .destination3:hover p{
+            color: black;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+.destination3:hover{
+    transition: all 2s ease-in-out;
+
+        transform: scale(1.1);
+        background-color: #00f2ff;
+        box-shadow: whitesmoke 1px 1px 16px; 
+    }
+    .destination3:hover img{
+        transition: 3s;
+        transform: scale(1.1);
+        border-radius: 70px;
+    }
+    .destination3:hover img{
+        transform: translateY(-20px);
+    }
+
+
+.destinationsa{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    column-gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.destinationsa p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.destinationsa img{
+    padding: 10px;
+    width: 300px;
+    height: 200PX;
+    box-shadow: black 10px 10px 10px;
+}
+.destination4:hover h3{
+    transform: translateY(-20px);
+    color: rgb(5, 5, 5);
+}
+.destination4:hover p{
+    transition: all 2s ease-in-out;
+
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.destination4{
+    padding-left: 20px;
+    padding-right: 50PX;
+
+    border: 2px solid black;
+  border-color: #F8F6F4;
+  border-radius: 50px;
+  padding-top: 10PX;
+
+
+}
+.destination5:hover h3{
+    transition: all 2s ease-in-out;
+
+    transform: translateY(-20px);
+    color: rgb(5, 5, 5);
+}
+.destination5:hover p{
+
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.destination5{
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50PX;
+    padding-top: 10PX;
+
+
+  border-color: #F8F6F4;
+  border-radius: 50px;
+
+}
+.destination6:hover h3{
+    transition: all 2s ease-in-out;
+
+    transform: translateY(-20px);
+    color: rgb(5, 5, 5);
+}
+.destination6:hover p{
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.destination6{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 50PX;
+    padding-top: 10PX;
+
+  border-radius: 50px;
+  border-color: #F8F6F4;
+
+
+}
+.destinationsa p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+text-transform: uppercase;
+}
+.destination4:hover{
+    transition: all 2s ease-in-out;
+    transform: scale(1.1);
+        background-color: #00f2ff;
+        box-shadow: whitesmoke 1px 1px 16px; 
+}
+.destination4:hover img{
+    transition: 3s;
+    transform: scale(1.1);
+    border-radius: 70px;
+}
+.destination4:hover img{
+    transform: translateY(-20px);
+}
+
+
+.destination5:hover{
+    transition: all 2s ease-in-out;
+
+    transform: scale(1.1);
+        background-color: #00f2ff;
+        box-shadow: whitesmoke 1px 1px 16px; 
+}
+.destination5:hover img{
+    transition: 3s;
+    transform: scale(1.1);
+    border-radius: 70px;
+}
+.destination5:hover img{
+    transform: translateY(-20px);
+}
+
+.destination6:hover{
+    transition: all 2s ease-in-out;
+
+    transform: scale(1.1);
+    background-color: #00f2ff;
+    box-shadow: whitesmoke 1px 1px 16px; 
+}
+.destination6:hover img{
+    transition: 3s;
+    transform: scale(1.1);
+    border-radius: 70px;
+}
+.destination6:hover img{
+    transform: translateY(-20px);
+}
+
+
